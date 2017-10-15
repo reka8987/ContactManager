@@ -1,0 +1,42 @@
+<form>
+    {{#if model.first}}
+        <h3>Edit Employee</h3>
+    {{else}}
+        <h3>Employee Add</h3>
+    {{/if}}
+
+    <div class="row">
+            <label for="first" class="col">First Name</label>
+             <div class="col">
+                {{input value=model.first class="form-control"}}
+            </div>
+            <label for="last" class="col">Last Name</label>
+            <div class="col">
+                {{input value=model.last class="form-control"}}
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="email" class="col">Email</label>
+            <div class="col">
+                {{input value=model.email class="form-control"}}
+            </div>
+            <label for="last" class="col">Telephone</label>
+            <div class="col">
+                {{input value=model.telephone class="form-control"}}
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="dept" class="col">Department</label>
+            <div class="col">
+                {{input value=model.dept class="form-control"}}
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="col">
+                <button {{action "saveEmployee"}} class="button btn">Save</button>
+            </div>
+            <div class="col">
+                <button {{action "cancelEmployee"}} class="button btn">Cancel</button>
+            </div>
+        </div>
+</form> 

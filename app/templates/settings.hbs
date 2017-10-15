@@ -1,0 +1,19 @@
+<h2>Settings</h2>
+<form>
+    <section>
+        {{#each model as |setting|}}
+        <div>
+            {{input type = "checkbox" }} {{setting.name}}
+
+        </div>
+        {{/each}}
+    </section>
+    <div class="bottom">
+        <div class="col">
+            <button {{action "save"}} class="button btn">Save</button>
+        </div>
+        <div class="col">
+            <button {{action "cancel"}} class="button btn">Cancel</button>
+        </div>
+    </div>
+</form>

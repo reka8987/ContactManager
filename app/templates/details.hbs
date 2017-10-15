@@ -1,0 +1,21 @@
+<h3>Employee Detail</h3>
+
+<section class="empDetails">
+    <div class="row">
+        <div class="col">Name:</div> <div class="col">{{model.first}} {{model.last}}</div>
+    </div>
+    <div class="row">
+        <div class="col">Email:</div> <div class="col">{{model.email}}</div>
+    </div>
+    <div class="row">
+        <div class="col">Tel:</div> <div class="col">{{model.telephone}}</div>
+    </div>
+    <div class="row">
+        <div class="col">Department:</div> <div class="col">{{model.dept}}</div>
+    </div>
+</section>
+<div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+        <button {{action "editEmployee" model.id}} class="btn btn-sm btn-primary">Edit</button>
+    </div>
+</div>

@@ -1,0 +1,24 @@
+<h2>{{title}}</h2>
+<div class="table">
+    <div class="row tableHeader">
+        <div class="col id">Employee ID</div>
+        <div class="col first">First Name</div>
+        <div class="col last">Last Name</div>
+        <div class="col email">Email</div>
+    </div>
+   
+    {{#each model as |employee|}}
+    <div {{action "showEmployee" employee.id}} class="row">
+        <div class="col id">{{employee.empid}}</div>
+        <div class="col first">{{employee.first}}</div>
+        <div class="col last">{{employee.last}}</div>
+        <div class="col email">{{employee.email}}</div>
+    </div>
+    {{/each}}
+</div>
+<section class="bottom">
+    <a {{action 'newemployee'}} class="button btn" >
+    Add New Employee
+    </a>
+
+</section>

@@ -1,0 +1,71 @@
+.navTab{
+	width:100%;background-color:#CCC;height:50px;display:flex
+}
+.active,anc:hover{
+	padding:10px;
+	border-right:solid 3px #CCC;
+	border-top:solid 3px #CCC;
+	font-weight:bold;
+	text-decoration:none;
+	border-left: solid 10px #CCC;
+	border-top-right-radius: 1em;
+     border-top-left-radius: 1.3em;
+	 background:white;
+	 width:100px;
+	 text-align:center;
+}
+.anc{
+	padding:10px;color:#222;font-weight:bold;text-decoration:none;
+}
+.table{
+	display:table;
+	width:100%;
+}
+.tableHeader{
+	background-color:#CCC;
+}
+.row{
+	display:table-row;
+}
+.col{
+	display:table-cell;
+	padding:10px;
+}
+.row:nth-child(even){background-color: #f2f2f2}
+.id{
+	width:10%
+}
+.first{
+	width:25%
+}
+.last{
+	width:25%
+}
+.email{
+	width:40%
+}
+.bottom{
+	margin-top:20px;
+}
+.btn
+{
+	border-radius: 12px;
+	padding:15px;
+	background-color:#EEE;
+	color:#030303;
+	text-decoration: none;
+	font-weight:bold;
+}
+.empDetails{
+    padding:25px;
+    display:table;
+    border:solid 1px #CCC;
+}
+.empDetails .row{
+    background-color:#EEE !important;
+    display:table-row;
+    padding:20px;
+}
+.col {
+    display:table-cell;
+}
