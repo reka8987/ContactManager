@@ -1,0 +1,8 @@
+define("capco-contacts-manager/templates/employees", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "uxccdG3b", "block": "{\"symbols\":[\"employee\"],\"statements\":[[6,\"h2\"],[7],[1,[18,\"title\"],false],[8],[0,\"\\n\"],[6,\"div\"],[9,\"class\",\"table\"],[7],[0,\"\\n    \"],[6,\"div\"],[9,\"class\",\"row tableHeader\"],[7],[0,\"\\n        \"],[6,\"div\"],[9,\"class\",\"col id\"],[7],[0,\"Employee ID\"],[8],[0,\"\\n        \"],[6,\"div\"],[9,\"class\",\"col first\"],[7],[0,\"First Name\"],[8],[0,\"\\n        \"],[6,\"div\"],[9,\"class\",\"col last\"],[7],[0,\"Last Name\"],[8],[0,\"\\n        \"],[6,\"div\"],[9,\"class\",\"col email\"],[7],[0,\"Email\"],[8],[0,\"\\n    \"],[8],[0,\"\\n   \\n\"],[4,\"each\",[[19,0,[\"model\"]]],null,{\"statements\":[[0,\"    \"],[6,\"div\"],[9,\"class\",\"row\"],[3,\"action\",[[19,0,[]],\"showEmployee\",[19,1,[\"id\"]]]],[7],[0,\"\\n        \"],[6,\"div\"],[9,\"class\",\"col id\"],[7],[1,[19,1,[\"empid\"]],false],[8],[0,\"\\n        \"],[6,\"div\"],[9,\"class\",\"col first\"],[7],[1,[19,1,[\"first\"]],false],[8],[0,\"\\n        \"],[6,\"div\"],[9,\"class\",\"col last\"],[7],[1,[19,1,[\"last\"]],false],[8],[0,\"\\n        \"],[6,\"div\"],[9,\"class\",\"col email\"],[7],[1,[19,1,[\"email\"]],false],[8],[0,\"\\n    \"],[8],[0,\"\\n\"]],\"parameters\":[1]},null],[8],[0,\"\\n\"],[6,\"section\"],[9,\"class\",\"bottom\"],[7],[0,\"\\n    \"],[6,\"a\"],[9,\"class\",\"button btn\"],[3,\"action\",[[19,0,[]],\"newemployee\"]],[7],[0,\"\\n    Add New Employee\\n    \"],[8],[0,\"\\n\\n\"],[8]],\"hasEval\":false}", "meta": { "moduleName": "capco-contacts-manager/templates/employees.hbs" } });
+});

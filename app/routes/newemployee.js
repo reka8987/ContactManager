@@ -1,4 +1,5 @@
 import Route from '@ember/routing/route';
+import Ember from 'ember';
 
 export default Route.extend({
     model(params) {
@@ -12,7 +13,7 @@ export default Route.extend({
 
     actions: {
         saveEmployee() {
-            let newemp = this.modelFor(this.routeName);
+            //let newemp = this.modelFor(this.routeName);
             //var self = this;
            // alert(newemp.id);
             Ember.getOwner(this).lookup('router:main').transitionTo("/");

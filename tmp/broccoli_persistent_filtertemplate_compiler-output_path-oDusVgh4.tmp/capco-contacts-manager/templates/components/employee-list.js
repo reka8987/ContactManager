@@ -1,0 +1,1 @@
+export default Ember.HTMLBars.template({"id":"mLifrbNw","block":"{\"symbols\":[\"&default\"],\"statements\":[[11,1]],\"hasEval\":false}","meta":{"moduleName":"capco-contacts-manager/templates/components/employee-list.hbs"}});

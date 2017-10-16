@@ -10,7 +10,7 @@ import Ember from 'ember';
 	
 
 export default Route.extend({
-    model: function(params) {
+    model: function() {
         return this.store.findAll('employee');           
     },
     actions: {
