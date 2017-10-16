@@ -14,7 +14,7 @@ export default Route.extend({
         saveEmployee() {
             let newemp = this.modelFor(this.routeName);
             //var self = this;
-            alert(newemp.id);
+           // alert(newemp.id);
             Ember.getOwner(this).lookup('router:main').transitionTo("/");
             //newemp.save().then(function() {
             //    self.transitionTo('newemployee');
